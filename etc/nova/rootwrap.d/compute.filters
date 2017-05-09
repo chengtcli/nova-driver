@@ -3,4 +3,4 @@ ln2: RegExpFilter, ln, root, ln, --symbolic, --force, .+, .+
 
 # nova/virt/libvirt/driver2.py:
 rm: RegExpFilter, rm, root, rm, /dev/rbd.*
-rm: RegExpFilter, rm, root, rm, --force, /dev/rbd.*
+rm2: RegExpFilter, rm, root, rm, --force, /dev/rbd.*
